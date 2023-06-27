@@ -21,7 +21,7 @@ const Resume = () => {
                 ></Title>
             </div>
             <div>
-                <ul className="w-full grid grid-cols-4">
+                <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                     <li onClick={()=>
                     
                      setEducationData(true) &
@@ -78,10 +78,7 @@ const Resume = () => {
               {
                 experienceData && <Experience/>
               }
-             {/* <Education/> */}
-             {/* <Skills/> */}
-             {/* <Achievement/> */}
-             {/* <Experience/> */}
+        
         </section>
     );
 };

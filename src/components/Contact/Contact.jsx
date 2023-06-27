@@ -58,20 +58,20 @@ const Contact = () => {
                 ></Title>
             </div>
             <div className="w-full" >
-                <div className="w-full h-auto flex justify-between">
+                <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
                     <ContactLeft />
 
-                    <div className="w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4  shadow-shadowOne">
+                    <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
 
-                        <form className="w-full flex flex-col gap-6  py-5">
+                        <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
                             {
                                 errMsg && <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">{errMsg}</p>
                             }
                             {
                                 successMsg && <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">{successMsg}</p>
                             }
-                            <div className="w-full flex gap-10">
-                                <div className="w-1/2 flex flex-col gap-4">
+                            <div className="w-full flex flex-col lgl:flex-row gap-10">
+                                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                                     <p className="text-sm text-gray-400 uppercase tracking-wide">Your Name</p>
                                     <input
                                         onChange={(e) => setUsername(e.target.value)}
@@ -80,7 +80,7 @@ const Contact = () => {
                                         value={username}
                                     />
                                 </div>
-                                <div className="w-1/2 flex flex-col gap-4">
+                                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                                     <p className="text-sm text-gray-400 uppercase tracking-wide"> Phone Number</p>
                                     <input
                                         onChange={(e) => setPhoneNumber(e.target.value)}
@@ -92,7 +92,7 @@ const Contact = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="w-full flex flex-col gap-4">
+                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide"> Email</p>
                                 <input
                                     onChange={(e) => setEmail(e.target.value)}
@@ -104,7 +104,7 @@ const Contact = () => {
                                     type="email"
                                 />
                             </div>
-                            <div className="w-full flex flex-col gap-4">
+                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide"> Subject</p>
                                 <input
                                     onChange={(e) => setSubject(e.target.value)}
@@ -117,7 +117,7 @@ const Contact = () => {
 
                                 />
                             </div>
-                            <div className="w-full flex flex-col gap-4">
+                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide"> Your Message :</p>
                                 <textarea
                                     onChange={(e) => setMessage(e.target.value)}
