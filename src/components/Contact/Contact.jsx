@@ -77,6 +77,7 @@ const Contact = () => {
                                         onChange={(e) => setUsername(e.target.value)}
                                         className={`${errMsg === 'Username is required!' && 'outline-designColor'} contactInput`}
                                         type="text" name="" id=""
+                                        placeholder="Enter Your Name :"
                                         value={username}
                                     />
                                 </div>
@@ -87,12 +88,13 @@ const Contact = () => {
                                         className={`${errMsg === "Phone number is required!" &&
                                             "outline-designColor"
                                             } contactInput`}
+                                            placeholder="Enter Your Phone Number :"
                                         value={phoneNumber}
                                         type="number"
                                     />
                                 </div>
                             </div>
-                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                            <div className="w-full  flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide"> Email</p>
                                 <input
                                     onChange={(e) => setEmail(e.target.value)}
@@ -100,11 +102,12 @@ const Contact = () => {
                                         errMsg === "Please give your Email!" &&
                                         "outline-designColor"
                                       } contactInput`}
+                                      placeholder="Enter Your Email:"
                                     value={email}
                                     type="email"
                                 />
                             </div>
-                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                            <div className="w-full flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide"> Subject</p>
                                 <input
                                     onChange={(e) => setSubject(e.target.value)}
@@ -112,18 +115,20 @@ const Contact = () => {
                                         errMsg === "Please give your Subject!" &&
                                         "outline-designColor"
                                       } contactInput`}
+                                      placeholder="Enter Your Subject:"
                                     value={subject}
                                     type="text"
 
                                 />
                             </div>
-                            <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide"> Your Message :</p>
+                            <div className="w-full  flex flex-col gap-4">
+                                <p className="text-sm text-gray-400 uppercase tracking-wide"> Message :</p>
                                 <textarea
                                     onChange={(e) => setMessage(e.target.value)}
                                     className={`${
                                         errMsg === "Message is required!" && "outline-designColor"
                                       } contactTextArea`}
+                                      placeholder="Write Your Message:"
                                      cols="30" rows="8"
                                     value={message}
                                     type="text"

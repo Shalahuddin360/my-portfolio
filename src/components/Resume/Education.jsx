@@ -13,21 +13,21 @@ const Education = () => {
             <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10" >
                 <ResumeCard
                     title="B.Sc. (Engg.) in Computer Science & Eng."
-                    subTitle="University of AUB (2018 - 2021)"
-                    result="3.90/4"
+                    subTitle="University of Asian University Of Bangladesh ,Dhaka (2018 - 2021)"
+                    result="3.36/4"
                     des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
 
                 />
                 <ResumeCard
-                    title="AS - Science & Information"
-                    subTitle="SuperKing College (2001 - 2005)"
-                    result="4.75/5"
+                    title="Higher Secondary School Certificate"
+                    subTitle="Parbatipur  Adarsha Degree College ,Dinajpur (2015 - 2017)"
+                    result="3.25/5"
                     des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
                 />
                 <ResumeCard
-                    title="Secondary School Education"
-                    subTitle="Kingstar Secondary School (1998 - 2000)"
-                    result="5.00/5"
+                    title="Secondary School Certificate "
+                    subTitle="Haldibari Maddhamik Bidhya Niketon,Dinajpur (2013 - 2015)"
+                    result="5.61/5"
                     des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
                 />
             </div>
