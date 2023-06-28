@@ -1,6 +1,7 @@
-import { projectOne, projectTwo, projectThree } from "../../assets";
+import {projectOne, projectTwo, projectThree } from "../../assets";
 import Title from "../Layouts/Title";
 import ProjectCard from "./ProjectCard";
+
 
 
 const Projects = () => {
@@ -14,6 +15,27 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
+                    title="Sports Learning School"
+                    des="Lorem20"
+                    src={projectOne}
+                    clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
+                    liveLink="https://super-sport-feec1.web.app/"
+                />
+                <ProjectCard
+                    title="Toy Town Marketplace"
+                    des="Lorem20"
+                    src={projectTwo}
+                    clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
+                    liveLink="https://super-sport-feec1.web.app/"
+                />
+                <ProjectCard
+                    title="FoodHub Service"
+                    des="Lorem20"
+                    src={projectThree}
+                    clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
+                    liveLink="https://super-sport-feec1.web.app/"
+                />
+                {/* <ProjectCard
                     title="SOCIAL MEDEA CLONE"
                     des="Lorem20"
                     src={projectOne}
@@ -22,29 +44,13 @@ const Projects = () => {
                     title="E-COMMERCE WEBSITE"
                     des="Lorem20"
                     src={projectTwo}
-
-                />
-                <ProjectCard
-                    title="SOCIAL MEDEA CLONE"
-                    des="Lorem20"
-                    src={projectThree}
-                />
-                <ProjectCard
-                    title="SOCIAL MEDEA CLONE"
-                    des="Lorem20"
-                    src={projectOne}
-                />
-                <ProjectCard
-                    title="E-COMMERCE WEBSITE"
-                    des="Lorem20"
-                    src={projectTwo}
                 />
                 <ProjectCard
 
                     title="SOCIAL MEDEA CLONE"
                     des="Lorem20"
                     src={projectThree}
-                />
+                /> */}
 
             </div>
         </section>

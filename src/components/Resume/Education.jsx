@@ -27,7 +27,7 @@ const Education = () => {
                 <ResumeCard
                     title="Secondary School Certificate "
                     subTitle="Haldibari Maddhamik Bidhya Niketon,Dinajpur (2013 - 2015)"
-                    result="5.61/5"
+                    result="4.61/5"
                     des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
                 />
             </div>
@@ -42,19 +42,19 @@ const Education = () => {
                 <ResumeCard
                     title="Sr. Software Engineer"
                     subTitle="Google Out Tech - (2017 - Present)"
-                    result="USA"
+                    result="Bangladesh"
                     des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
                 />
                 <ResumeCard
                     title="Web Developer & Trainer"
                     subTitle="Apple Developer Team - (2012 - 2016)"
-                    result="MALAYSIA"
+                    result="Bangladesh"
                     des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
                 />
                 <ResumeCard
                     title="Front-end Developer"
-                    subTitle="Nike - (2020 - 2011)"
-                    result="Oman"
+                    subTitle="Nike - (2021 - 2022)"
+                    result="Bangladesh"
                     des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
                 />
             </div>
