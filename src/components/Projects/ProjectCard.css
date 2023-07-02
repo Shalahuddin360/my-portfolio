@@ -7,7 +7,7 @@
   .screen {
       display: block;
       width: 300px;
-      height: 350px;
+      height: 250px;
       overflow: hidden;
       position: relative;
       border: 1px solid #b3b3b3;
@@ -15,7 +15,7 @@
       margin: 0 auto;
   }
   .screen img {
-      bottom: -620px;
+      bottom: -720px;
       width: 100%;
       height: auto;
       position: absolute;
@@ -35,4 +35,22 @@
     -ms-transition: all 11s;
     -o-transition: all 11s;
     transition: all 11s;
+  }
+  .read-more-less--more{
+    color:crimson;
+    font-weight: bold;
+    
+  }
+  .read-more-less--more:hover{
+    color:red;
+    font-weight: bold;
+    border-bottom: 1px solid crimson;
+  }
+  .read-more-less--less {
+    color:whitesmoke;
+    font-weight: bold;
+  }
+  .read-more-less--less:hover {
+    color:crimson;
+    font-weight: bold;
   }

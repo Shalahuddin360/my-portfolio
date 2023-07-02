@@ -16,31 +16,31 @@ const Features = () => {
           />
           <Card
            title="App Development"
-           des="A business strategy is an outline of the actions and decisions a company plans to take to reach its goals and objectives"
+           des="Mobile application development is the process of creating software applications that run on a mobile device."
            icon={<AiFillAppstore/>}
           />
-          <Card
+          {/* <Card
            title="SEO Optimization"
            des="A business strategy is an outline of the actions and decisions a company plans to take to reach its goals and objectives"
            
            icon={<SiProgress/>}
-          />
-          <Card
+          /> */}
+          {/* <Card
            title="Mobile Development"
            des="A business strategy is an outline of the actions and decisions a company plans to take to reach its goals and objectives"
          
            icon={<FaMobile/>}
-          />
+          /> */}
           <Card
            title="UX-Design"
-           des="A business strategy is an outline of the actions and decisions a company plans to take to reach its goals and objectives"
+           des="User experience (UX) design is the process and practice used to design and implement a product that will provide positive and relevant interactions with users."
            icon={<SiAntdesign/>}
           />
-          <Card
+          {/* <Card
            title="Hosting Websites"
            des="A business strategy is an outline of the actions and decisions a company plans to take to reach its goals and objectives"
            icon={<FaGlobe/>}
-          />
+          /> */}
 
         </div>
         </section>

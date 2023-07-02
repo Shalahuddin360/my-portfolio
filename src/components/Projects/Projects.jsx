@@ -16,24 +16,24 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
                     title="Sports Learning School"
-                    des="Lorem20"
+                    des="It is a sports learning website, Which offers classes of various categories of sports.Student can easily can sign up and log in to this website using google and email or password .Student can select classes then  see their enrolled class  list  after completing the payment.Basically  Admin manage users , all classes of the Instructors and make new admin Instructors.•	If anyone want to be the instructor he firstly needs the permission admin from the admin after the permission he can upload it is own classes and then monitoring it."
                     src={projectOne}
                     clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
                     liveLink="https://super-sport-feec1.web.app/"
                 />
                 <ProjectCard
                     title="Toy Town Marketplace"
-                    des="Lorem20"
+                    des="It is a  toys related website and here you can find different types of toys. User can log into this website using Google or an email password. A user can see the toys and choose toy.Here a seller can sell their toys also add toys to update toys and delete toys.A CRUD application exposed using a REST API made with Node.js ,server host in Vercel."
                     src={projectTwo}
-                    clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
-                    liveLink="https://super-sport-feec1.web.app/"
+                    clientGithub="https://github.com/Shalahuddin360/toy-town-marketplace-client"
+                    liveLink="https://toy-town-2d792.web.app/"
                 />
                 <ProjectCard
                     title="FoodHub Service"
-                    des="Lorem20"
+                    des="It is an food fruits selling website. This website will help you to manage fruit inventory.Users can sign up and log in to this website using Google,email and password. You can easily edit your fruits."
                     src={projectThree}
-                    clientGithub="https://github.com/Shalahuddin360/super-sports-summer-camp-client"
-                    liveLink="https://super-sport-feec1.web.app/"
+                    clientGithub="https://github.com/Shalahuddin360/foodhub-client"
+                    liveLink="https://the-foodhub-with-firebase.web.app/"
                 />
                 {/* <ProjectCard
                     title="SOCIAL MEDEA CLONE"

@@ -8,7 +8,8 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import projectFour from "./images/projects/Shalah-Uddin-Personal-Portfolio.png"
+import projectFour from "./images/projects/Shalah-Uddin-Personal-Portfolio.png";
+import testimonialThree from "./images/testmonial/testimonialThree.jpg"
 export {
     logo,
     bannerImg,
@@ -19,5 +20,6 @@ export {
     testimonialTwo,
     quote,
     contactImg,
-    projectFour
+    projectFour,
+    testimonialThree
   };
