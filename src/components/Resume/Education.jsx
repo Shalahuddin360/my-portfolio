@@ -40,7 +40,7 @@ const Education = () => {
             </div>
             <div className=" mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10" >
                 <ResumeCard
-                    title="As A fresher Jr. Web Developer"
+                    title="As A fresher Jr. MARN STACK DEVELOPER"
                     subTitle="--"
                     result="Bangladesh"
                     des="I am willing to join your IT team as a fresher. Do you want to join me as junior web developer."

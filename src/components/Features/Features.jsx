@@ -21,7 +21,7 @@ const Features = () => {
           />
  
           <Card
-           title="UX-Design"
+           title="UI-Design"
            des="User experience (UX) design is the process and practice used to design and implement a product that will provide positive and relevant interactions with users."
            icon={<SiAntdesign/>}
           />

@@ -5,7 +5,7 @@ import ResumeDownload from '../Resume/ResumeDownload';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ['Professional Coder.', 'MERN Stack Developer.', 'UI Designer.'],
+        words: ['JavaScript Developer.', 'MERN Stack Developer.', 'React JS Developer.'],
         loop: 3,
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
     })
