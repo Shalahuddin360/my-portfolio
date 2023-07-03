@@ -22,7 +22,7 @@ const Resume = () => {
       </div>
   
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <li onClick={() =>
 
             setEducationData(true) &
@@ -42,8 +42,8 @@ const Resume = () => {
             className={`${skillData ? "border-designColor rounded-lg" : "border-transparent"
               } resumeLi`}
 
-          >Professional Skills</li>
-          <li onClick={() =>
+          >Skills</li>
+          {/* <li onClick={() =>
             setEducationData(false) &
             setSkillData(false) &
             setExperienceData(true) &
@@ -52,7 +52,7 @@ const Resume = () => {
             className={`${experienceData ? "border-designColor rounded-lg" : "border-transparent"
               } resumeLi`}
 
-          >Experience</li>
+          >Experience</li> */}
           <li onClick={() =>
             setEducationData(false) &
             setSkillData(false) &
@@ -73,9 +73,9 @@ const Resume = () => {
       {
         achievementData && <Achievement />
       }
-      {
+      {/* {
         experienceData && <Experience />
-      }
+      } */}
    
     </section>
   );
