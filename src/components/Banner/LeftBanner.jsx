@@ -1,6 +1,7 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import ResumeDownload from '../Resume/ResumeDownload';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -11,8 +12,9 @@ const LeftBanner = () => {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
       };
+    
     return (
-        <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+        <div className="w-full lgl:w-1/2 flex flex-col gap-5">
             <div className="flex flex-col gap-5">
 
                 <h4 className="text-xl lgl:text-3xl font-normal">Welcome to my world !</h4>
@@ -34,8 +36,11 @@ const LeftBanner = () => {
                 <p className="text-base p-2 font-bodyFont leading-6 tracking-wide ">
                  I currently develop web application . My core skill is based on JavaScript.I love to make the web more open to the world.I love programming (Curious Programmer) . I have got my Under graduation degree Bachelor of Science B.Sc. (Eng.) in CSE from Asian University of Bangladesh,Dhaka,Bangladesh.I am available for any good opportunities.
                 </p>
-
+                
             </div>
+      
+             <ResumeDownload/>
+        
             <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
 
                 <div>

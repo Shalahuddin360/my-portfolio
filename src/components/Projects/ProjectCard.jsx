@@ -1,9 +1,10 @@
 import { FaGlobe } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsServer } from "react-icons/bs";
+
 
 import './ProjectCard.css'
 import ReactReadMoreReadLess from "react-read-more-read-less";
-const ProjectCard = ({ title, des, src, clientGithub, liveLink }) => {
+const ProjectCard = ({ title, des, src, clientGithub,serverSide, liveLink }) => {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
     };
@@ -27,6 +28,9 @@ const ProjectCard = ({ title, des, src, clientGithub, liveLink }) => {
                         <div className="flex gap-2">
                             <span role="link" onClick={() => openInNewTab(clientGithub)} className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                                 <BsGithub />
+                            </span>
+                            <span role="link" onClick={() => openInNewTab(serverSide)} className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                                <BsServer></BsServer>
                             </span>
                             <span role="link" onClick={() => openInNewTab(liveLink)} className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                                 <FaGlobe />

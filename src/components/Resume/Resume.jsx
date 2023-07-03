@@ -4,7 +4,7 @@ import Achievement from "./Achievement";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
-import ResumeDownload from "./ResumeDownload";
+
 
 
 const Resume = () => {
@@ -76,7 +76,7 @@ const Resume = () => {
       {
         experienceData && <Experience />
       }
-     <ResumeDownload/>
+   
     </section>
   );
 };

@@ -9,6 +9,7 @@ const Banner = () => {
             <LeftBanner></LeftBanner>
             
              <RightBanner></RightBanner>
+             
         </section>
     );
 };
